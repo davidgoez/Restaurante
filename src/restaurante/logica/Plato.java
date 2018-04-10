@@ -5,6 +5,7 @@
  */
 package restaurante.logica;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.Scanner;
 import restaurante.logica.acompañante.Acompañante;
@@ -17,11 +18,14 @@ import restaurante.logica.bebida.Bebida;
 import restaurante.logica.bebida.Gaseosa;
 import restaurante.logica.bebida.Jugo;
 
+=======
+>>>>>>> 4ddd24967104fa3edc7012166e84495ee6be48fd
 /**
  *
  * @author Estudiantes
  */
 public class Plato {
+<<<<<<< HEAD
    
     Bebida bb;
     Acompañante a;
@@ -100,3 +104,10 @@ public class Plato {
 
     
 
+=======
+
+    
+   
+    
+}
+>>>>>>> 4ddd24967104fa3edc7012166e84495ee6be48fd

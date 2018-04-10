@@ -5,6 +5,7 @@
  */
 package restaurante;
 
+<<<<<<< HEAD
 import java.util.Scanner;
 import restaurante.logica.Plato;
 import restaurante.logica.bebida.Bebida;
@@ -17,12 +18,15 @@ import restaurante.logica.base.Proteina;
 import restaurante.logica.bebida.Gaseosa;
 import restaurante.logica.bebida.Jugo;
 
+=======
+>>>>>>> 4ddd24967104fa3edc7012166e84495ee6be48fd
 /**
  *
  * @author Estudiantes
  */
 public class Restaurante {
 
+<<<<<<< HEAD
     public static void main(String[] args) {
       
      
@@ -32,4 +36,13 @@ public class Restaurante {
         
     }
 
+=======
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
+    
+>>>>>>> 4ddd24967104fa3edc7012166e84495ee6be48fd
 }

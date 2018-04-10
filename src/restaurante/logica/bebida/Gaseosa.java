@@ -4,12 +4,17 @@
  * and open the template in the editor.
  */
 package restaurante.logica.bebida;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4ddd24967104fa3edc7012166e84495ee6be48fd
 /**
  *
  * @author Estudiantes
  */
 public class Gaseosa extends Bebida {
     
+<<<<<<< HEAD
        
 
     public Gaseosa() {
@@ -18,5 +23,11 @@ public class Gaseosa extends Bebida {
         this.sprite="sprite";
     }
 
+=======
+    public String cocacola;
+    public String pepsi;
+    public String sprite;
+    
+>>>>>>> 4ddd24967104fa3edc7012166e84495ee6be48fd
     
 }

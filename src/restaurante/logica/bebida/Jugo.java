@@ -11,6 +11,7 @@ package restaurante.logica.bebida;
  */
 public class Jugo extends Bebida {
     
+<<<<<<< HEAD
     public Jugo(){
         
        this.mango="mango";
@@ -19,6 +20,11 @@ public class Jugo extends Bebida {
     }
     
    
+=======
+    public String mora;
+    public String mango;
+    public String lulo;
+>>>>>>> 4ddd24967104fa3edc7012166e84495ee6be48fd
     
     
 }
