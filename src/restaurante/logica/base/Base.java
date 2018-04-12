@@ -11,6 +11,7 @@ package restaurante.logica.base;
  */
 public abstract class Base  {
     
+<<<<<<< HEAD
     public String conPollo;
     public String atollado;
     public String chino;
@@ -67,4 +68,6 @@ public abstract class Base  {
     }
     
     
+=======
+>>>>>>> 07bc268580e0aed8f2ae2d3776ac96e038faa4bf
 }

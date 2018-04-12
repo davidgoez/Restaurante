@@ -10,7 +10,11 @@ package restaurante.logica.bebida;
  * @author Estudiantes
  */
 public abstract class Bebida  {
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> 07bc268580e0aed8f2ae2d3776ac96e038faa4bf
     public String mora;
     public String mango;
     public String lulo;
@@ -67,7 +71,12 @@ public abstract class Bebida  {
     }
     
 
+<<<<<<< HEAD
 
+=======
+=======
+>>>>>>> 4ddd24967104fa3edc7012166e84495ee6be48fd
+>>>>>>> 07bc268580e0aed8f2ae2d3776ac96e038faa4bf
     
     
 

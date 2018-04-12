@@ -5,6 +5,7 @@
  */
 package restaurante.logica;
 
+<<<<<<< HEAD
 import restaurante.logica.acompañante.Acompañante;
 import restaurante.logica.base.Base;
 import restaurante.logica.bebida.Bebida;
@@ -14,27 +15,56 @@ import restaurante.logica.bebida.Jugo;
 
 
 
+=======
+<<<<<<< HEAD
+import java.util.ArrayList;
+import java.util.Scanner;
+import restaurante.logica.acompañante.Acompañante;
+import restaurante.logica.acompañante.Carbohidrato;
+import restaurante.logica.acompañante.Ensalada;
+import restaurante.logica.base.Arroz;
+import restaurante.logica.base.Base;
+import restaurante.logica.base.Proteina;
+import restaurante.logica.bebida.Bebida;
+import restaurante.logica.bebida.Gaseosa;
+import restaurante.logica.bebida.Jugo;
+
+=======
+>>>>>>> 4ddd24967104fa3edc7012166e84495ee6be48fd
+>>>>>>> 07bc268580e0aed8f2ae2d3776ac96e038faa4bf
 /**
  *
  * @author Estudiantes
  */
 public class Plato {
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> 07bc268580e0aed8f2ae2d3776ac96e038faa4bf
    
     Bebida bb;
     Acompañante a;
     Base b;
     
 
+<<<<<<< HEAD
    
    /*
 
    public void imprimir(){
+=======
+
+    public void imprimir(){
+>>>>>>> 07bc268580e0aed8f2ae2d3776ac96e038faa4bf
     
         int j1;
         int j2;
         String x;
+<<<<<<< HEAD
         String j;
+=======
+>>>>>>> 07bc268580e0aed8f2ae2d3776ac96e038faa4bf
         
         
         Scanner sc = new Scanner(System.in);
@@ -63,7 +93,10 @@ public class Plato {
                         break;
                     default:
                         break;
+<<<<<<< HEAD
                     
+=======
+>>>>>>> 07bc268580e0aed8f2ae2d3776ac96e038faa4bf
                 }
                 
                 break;
@@ -95,17 +128,32 @@ public class Plato {
                 
         }
                 
+<<<<<<< HEAD
     }
 */
 
+=======
+       
+    
+    }
+>>>>>>> 07bc268580e0aed8f2ae2d3776ac96e038faa4bf
     }
 
     
 
+<<<<<<< HEAD
 
+=======
+=======
+>>>>>>> 07bc268580e0aed8f2ae2d3776ac96e038faa4bf
 
     
    
     
+<<<<<<< HEAD
 
 
+=======
+}
+>>>>>>> 4ddd24967104fa3edc7012166e84495ee6be48fd
+>>>>>>> 07bc268580e0aed8f2ae2d3776ac96e038faa4bf

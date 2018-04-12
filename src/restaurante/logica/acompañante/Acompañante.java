@@ -11,6 +11,7 @@ package restaurante.logica.acompañante;
  */
 public abstract class Acompañante  {
     
+<<<<<<< HEAD
     public String papasFritas;
     public String platano;
     public String yuca;
@@ -67,4 +68,6 @@ public abstract class Acompañante  {
     }
     
     
+=======
+>>>>>>> 07bc268580e0aed8f2ae2d3776ac96e038faa4bf
 }
