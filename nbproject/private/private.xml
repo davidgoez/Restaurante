@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+<<<<<<< HEAD
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
         <file>
             <url>src/GUI/JFrameMenu.java</url>
@@ -12,5 +13,34 @@
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group/>
+=======
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+<<<<<<< HEAD
+            <file>file:/C:/Users/Estudiantes/Documents/NetBeansProjects/Restaurante-master/src/GUI/JFrameMenu.java</file>
+            <file>file:/C:/Users/Estudiantes/Documents/NetBeansProjects/Restaurante-master/src/restaurante/Menu.java</file>
+            <file>file:/C:/Users/Estudiantes/Documents/NetBeansProjects/Restaurante-master/src/restaurante/logica/Plato.java</file>
+=======
+<<<<<<< HEAD
+            <file>file:/C:/Users/Estudiantes/Documents/NetBeansProjects/Restaurante-master/src/restaurante/logica/bebida/Bebida.java</file>
+            <file>file:/C:/Users/Estudiantes/Documents/NetBeansProjects/Restaurante-master/src/restaurante/Restaurante.java</file>
+            <file>file:/C:/Users/Estudiantes/Documents/NetBeansProjects/Restaurante-master/src/restaurante/logica/bebida/Gaseosa.java</file>
+            <file>file:/C:/Users/Estudiantes/Documents/NetBeansProjects/Restaurante-master/src/restaurante/logica/Plato.java</file>
+            <file>file:/C:/Users/Estudiantes/Documents/NetBeansProjects/Restaurante-master/src/restaurante/logica/bebida/Jugo.java</file>
+=======
+            <file>file:/C:/Users/Estudiantes/Documents/NetBeansProjects/Restaurante/src/restaurante/logica/Gaseosa.java</file>
+            <file>file:/C:/Users/Estudiantes/Documents/NetBeansProjects/Restaurante/src/restaurante/logica/Acompañante.java</file>
+            <file>file:/C:/Users/Estudiantes/Documents/NetBeansProjects/Restaurante/src/restaurante/logica/Base.java</file>
+            <file>file:/C:/Users/Estudiantes/Documents/NetBeansProjects/Restaurante/src/restaurante/logica/Jugo.java</file>
+            <file>file:/C:/Users/Estudiantes/Documents/NetBeansProjects/Restaurante/src/restaurante/logica/Carbohidratos.java</file>
+            <file>file:/C:/Users/Estudiantes/Documents/NetBeansProjects/Restaurante/src/restaurante/Restaurante.java</file>
+            <file>file:/C:/Users/Estudiantes/Documents/NetBeansProjects/Restaurante/src/restaurante/logica/Plato.java</file>
+            <file>file:/C:/Users/Estudiantes/Documents/NetBeansProjects/Restaurante/src/restaurante/logica/Carne.java</file>
+            <file>file:/C:/Users/Estudiantes/Documents/NetBeansProjects/Restaurante/src/restaurante/logica/Bebida.java</file>
+>>>>>>> 4ddd24967104fa3edc7012166e84495ee6be48fd
+>>>>>>> 07bc268580e0aed8f2ae2d3776ac96e038faa4bf
+        </group>
+>>>>>>> bd99e3bd51777e55eec3687155ce971db28cadf3
     </open-files>
 </project-private>

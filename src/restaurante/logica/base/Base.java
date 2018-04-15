@@ -11,7 +11,11 @@ package restaurante.logica.base;
  */
 public abstract class Base  {
     
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> bd99e3bd51777e55eec3687155ce971db28cadf3
     public String conPollo;
     public String atollado;
     public String chino;
@@ -67,5 +71,11 @@ public abstract class Base  {
         this.pescado = pescado;
     }
     
+<<<<<<< HEAD
 
+=======
+    
+=======
+>>>>>>> 07bc268580e0aed8f2ae2d3776ac96e038faa4bf
+>>>>>>> bd99e3bd51777e55eec3687155ce971db28cadf3
 }
