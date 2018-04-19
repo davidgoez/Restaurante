@@ -11,8 +11,6 @@ package restaurante.logica.acompañante;
  */
 public class Carbohidrato extends Acompañante {
     
-<<<<<<< HEAD
-   
 
 
     public Carbohidrato() {
@@ -21,16 +19,5 @@ public class Carbohidrato extends Acompañante {
         this.yuca="yuca";
     }
 
-=======
-    public String papasFritas;
-    public String platano;
-    public String yuca;
-<<<<<<< HEAD
 
-    public Carbohidrato(int a2) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-=======
->>>>>>> 4ddd24967104fa3edc7012166e84495ee6be48fd
->>>>>>> 07bc268580e0aed8f2ae2d3776ac96e038faa4bf
 }
