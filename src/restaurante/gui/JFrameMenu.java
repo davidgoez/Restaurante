@@ -16,7 +16,6 @@ import restaurante.logica.bebida.Bebida;
 import restaurante.logica.bebida.Gaseosa;
 import restaurante.logica.bebida.Jugo;
 
-
 /**
  *
  * @author GOLDS
@@ -81,24 +80,13 @@ public class JFrameMenu extends javax.swing.JFrame {
         jButtonBG = new javax.swing.JButton();
         jScrollPane13 = new javax.swing.JScrollPane();
         jTextPane12 = new javax.swing.JTextPane();
-        jScrollPane3 = new javax.swing.JScrollPane();
-        jTextPl = new javax.swing.JTextArea();
         jButtonGenerar = new javax.swing.JButton();
         jTextField1 = new javax.swing.JTextField();
         jTextField2 = new javax.swing.JTextField();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTextPl2 = new javax.swing.JTextArea();
-        jScrollPane2 = new javax.swing.JScrollPane();
-        jTextPl3 = new javax.swing.JTextArea();
-        jScrollPane4 = new javax.swing.JScrollPane();
-        jTextPl4 = new javax.swing.JTextArea();
-        jScrollPane5 = new javax.swing.JScrollPane();
-        jTextPl5 = new javax.swing.JTextArea();
-        jScrollPane6 = new javax.swing.JScrollPane();
-        jTextPl6 = new javax.swing.JTextArea();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        jTextPlato = new javax.swing.JTextArea();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
@@ -145,8 +133,6 @@ public class JFrameMenu extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 440, 80));
-
         jPanel3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         jButtonAE.setText("Ensaldas");
@@ -190,8 +176,6 @@ public class JFrameMenu extends javax.swing.JFrame {
                     .addComponent(jButtonAO))
                 .addContainerGap())
         );
-
-        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 200, 440, 60));
 
         jPanel4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
@@ -237,57 +221,61 @@ public class JFrameMenu extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, 440, 70));
-
-        jTextPl.setColumns(20);
-        jTextPl.setRows(5);
-        jScrollPane3.setViewportView(jTextPl);
-
-        getContentPane().add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 120, 80, 70));
-
         jButtonGenerar.setText("GENERAR");
         jButtonGenerar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonGenerarActionPerformed(evt);
             }
         });
-        getContentPane().add(jButtonGenerar, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 70, -1, -1));
 
         jTextField1.setText("RESTAURANTE LA 40");
-        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 620, 40));
 
         jTextField2.setText("MENU");
-        getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 440, -1));
 
-        jTextPl2.setColumns(20);
-        jTextPl2.setRows(5);
-        jScrollPane1.setViewportView(jTextPl2);
+        jTextPlato.setColumns(20);
+        jTextPlato.setRows(5);
+        jScrollPane7.setViewportView(jTextPlato);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 200, 80, 60));
-
-        jTextPl3.setColumns(20);
-        jTextPl3.setRows(5);
-        jScrollPane2.setViewportView(jTextPl3);
-
-        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 270, 80, 70));
-
-        jTextPl4.setColumns(20);
-        jTextPl4.setRows(5);
-        jScrollPane4.setViewportView(jTextPl4);
-
-        getContentPane().add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 120, 80, 70));
-
-        jTextPl5.setColumns(20);
-        jTextPl5.setRows(5);
-        jScrollPane5.setViewportView(jTextPl5);
-
-        getContentPane().add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 200, 80, 60));
-
-        jTextPl6.setColumns(20);
-        jTextPl6.setRows(5);
-        jScrollPane6.setViewportView(jTextPl6);
-
-        getContentPane().add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 270, 80, 70));
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap(18, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 620, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 440, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(60, 60, 60)
+                        .addComponent(jButtonGenerar))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(10, 10, 10)
+                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(20, 20, 20)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButtonGenerar))
+                .addGap(35, 35, 35)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(3, 3, 3)
+                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jScrollPane7))
+                .addGap(0, 45, Short.MAX_VALUE))
+        );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -301,12 +289,20 @@ public class JFrameMenu extends javax.swing.JFrame {
       b=new Arroz();
       carne.setVisible(false);
       arroz.setVisible(true);
+      ensalada.setVisible(false);
+      carbohidrato.setVisible(false);
+      jugo.setVisible(false);
+      gaseosa.setVisible(false);
      
     }//GEN-LAST:event_jButtonBAActionPerformed
 
     private void jButtonBCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonBCActionPerformed
       arroz.setVisible(false);
       carne.setVisible(true);
+      ensalada.setVisible(false);
+      carbohidrato.setVisible(false);
+      jugo.setVisible(false);
+      gaseosa.setVisible(false);
       car = false;
       ar=true;
       Plato p=new Plato();
@@ -317,20 +313,36 @@ public class JFrameMenu extends javax.swing.JFrame {
 
     private void jButtonGenerarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonGenerarActionPerformed
     
+     jTextPlato.setText("TU PLATO ES : \n");
+        
+    if (ar==false && car==true){
+        jTextPlato.setText(jTextPlato.getText()+"Arroz  "+arroz.getA()+"\n");
+    }else{
+        jTextPlato.setText(jTextPlato.getText()+carne.getG()+"\n");
+    }
+    if (ens==false && otro==true){
+        jTextPlato.setText(jTextPlato.getText()+ensalada.getE()+"\n");   
+    }else{
+        jTextPlato.setText(jTextPlato.getText()+carbohidrato.getC()+"\n");
+    }
+    if (jg==false && gs==true){
+        jTextPlato.setText(jTextPlato.getText()+"Jugo "+jugo.getJ()+"\n");
+    }else{
+        jTextPlato.setText(jTextPlato.getText()+"Gaseosa "+gaseosa.getGg()+"\n");
+    }
     
-    jTextPl.setText(carne.getG());
-    jTextPl4.setText(arroz.getA());
-    jTextPl2.setText(ensalada.getE());
-    jTextPl5.setText(carbohidrato.getC());
-    jTextPl3.setText(gaseosa.getGg());
-    jTextPl6.setText(jugo.getJ());
+    
     
     }//GEN-LAST:event_jButtonGenerarActionPerformed
 
     private void jButtonAEActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonAEActionPerformed
        
-       ensalada.setVisible(true);
-       carbohidrato.setVisible(false);
+      arroz.setVisible(false);
+      carne.setVisible(false);
+      ensalada.setVisible(true);
+      carbohidrato.setVisible(false);
+      jugo.setVisible(false);
+      gaseosa.setVisible(false);
        ens=false;
        otro=true;
        Plato p=new Plato();
@@ -344,6 +356,8 @@ public class JFrameMenu extends javax.swing.JFrame {
        
        ensalada.setVisible(false);
        carbohidrato.setVisible(true);
+       jugo.setVisible(false);
+       gaseosa.setVisible(false);
        ens=true;
        otro=false;
        Plato p=new Plato();
@@ -353,8 +367,12 @@ public class JFrameMenu extends javax.swing.JFrame {
 
     private void jButtonBJActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonBJActionPerformed
        
-       jugo.setVisible(true);
-       gaseosa.setVisible(false);
+       arroz.setVisible(false);
+      carne.setVisible(true);
+      ensalada.setVisible(false);
+      carbohidrato.setVisible(false);
+      jugo.setVisible(true);
+      gaseosa.setVisible(false);
        jg=false;
        gs=true;
        Plato p=new Plato();
@@ -363,8 +381,12 @@ public class JFrameMenu extends javax.swing.JFrame {
     }//GEN-LAST:event_jButtonBJActionPerformed
 
     private void jButtonBGActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonBGActionPerformed
-       jugo.setVisible(false);
-       gaseosa.setVisible(true);
+       arroz.setVisible(false);
+      carne.setVisible(true);
+      ensalada.setVisible(false);
+      carbohidrato.setVisible(false);
+      jugo.setVisible(false);
+      gaseosa.setVisible(true);
        jg=true;
        gs=false;
        Plato p=new Plato();
@@ -419,25 +441,15 @@ public class JFrameMenu extends javax.swing.JFrame {
     javax.swing.JPanel jPanel1;
     javax.swing.JPanel jPanel3;
     javax.swing.JPanel jPanel4;
-    javax.swing.JScrollPane jScrollPane1;
     javax.swing.JScrollPane jScrollPane11;
     javax.swing.JScrollPane jScrollPane12;
     javax.swing.JScrollPane jScrollPane13;
-    javax.swing.JScrollPane jScrollPane2;
-    javax.swing.JScrollPane jScrollPane3;
-    javax.swing.JScrollPane jScrollPane4;
-    javax.swing.JScrollPane jScrollPane5;
-    javax.swing.JScrollPane jScrollPane6;
+    javax.swing.JScrollPane jScrollPane7;
     javax.swing.JTextField jTextField1;
     javax.swing.JTextField jTextField2;
     javax.swing.JTextPane jTextPane10;
     javax.swing.JTextPane jTextPane11;
     javax.swing.JTextPane jTextPane12;
-    javax.swing.JTextArea jTextPl;
-    javax.swing.JTextArea jTextPl2;
-    javax.swing.JTextArea jTextPl3;
-    javax.swing.JTextArea jTextPl4;
-    javax.swing.JTextArea jTextPl5;
-    javax.swing.JTextArea jTextPl6;
+    javax.swing.JTextArea jTextPlato;
     // End of variables declaration//GEN-END:variables
 }
