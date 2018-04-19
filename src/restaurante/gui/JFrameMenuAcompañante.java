@@ -56,6 +56,10 @@ public class JFrameMenuAcompañante extends javax.swing.JFrame {
         jButtonRp = new javax.swing.JButton();
         jButtonHb = new javax.swing.JButton();
         jButtonZn = new javax.swing.JButton();
+<<<<<<< HEAD
+=======
+        jTextRes = new javax.swing.JTextField();
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -90,17 +94,36 @@ public class JFrameMenuAcompañante extends javax.swing.JFrame {
                     .addComponent(jButtonRp, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButtonZn, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButtonHb, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE))
+<<<<<<< HEAD
                 .addContainerGap(188, Short.MAX_VALUE))
+=======
+                .addGap(40, 40, 40)
+                .addComponent(jTextRes, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(19, Short.MAX_VALUE))
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(73, 73, 73)
+<<<<<<< HEAD
                 .addComponent(jButtonRp)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButtonHb)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButtonZn)
+=======
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jButtonRp)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButtonHb)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButtonZn))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(1, 1, 1)
+                        .addComponent(jTextRes)))
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
                 .addContainerGap(146, Short.MAX_VALUE))
         );
 
@@ -112,7 +135,11 @@ public class JFrameMenuAcompañante extends javax.swing.JFrame {
         hb=true;
         zn=true;
         this.e=a.getRepollo();
+<<<<<<< HEAD
          this.dispose();
+=======
+        jTextRes.setText(a.getRepollo());
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
     }//GEN-LAST:event_jButtonRpActionPerformed
 
     private void jButtonHbActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonHbActionPerformed
@@ -120,7 +147,11 @@ public class JFrameMenuAcompañante extends javax.swing.JFrame {
         hb=false;
         zn=true;
         this.e=a.getHabichuela();
+<<<<<<< HEAD
          this.dispose();
+=======
+        jTextRes.setText(a.getHabichuela());
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
     }//GEN-LAST:event_jButtonHbActionPerformed
 
     private void jButtonZnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonZnActionPerformed
@@ -128,7 +159,11 @@ public class JFrameMenuAcompañante extends javax.swing.JFrame {
         hb=true;
         zn=false;
         this.e=a.getZanahoria();
+<<<<<<< HEAD
          this.dispose();
+=======
+        jTextRes.setText(a.getZanahoria());
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
     }//GEN-LAST:event_jButtonZnActionPerformed
 
     /**
@@ -170,5 +205,9 @@ public class JFrameMenuAcompañante extends javax.swing.JFrame {
     javax.swing.JButton jButtonHb;
     javax.swing.JButton jButtonRp;
     javax.swing.JButton jButtonZn;
+<<<<<<< HEAD
+=======
+    javax.swing.JTextField jTextRes;
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
     // End of variables declaration//GEN-END:variables
 }

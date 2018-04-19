@@ -57,6 +57,10 @@ public class JFrameMenuAcompañante2 extends javax.swing.JFrame {
         jButtonPf = new javax.swing.JButton();
         jButtonYc = new javax.swing.JButton();
         jButtonPl = new javax.swing.JButton();
+<<<<<<< HEAD
+=======
+        jTextRes = new javax.swing.JTextField();
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -91,17 +95,34 @@ public class JFrameMenuAcompañante2 extends javax.swing.JFrame {
                     .addComponent(jButtonPf, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jButtonYc, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jButtonPl, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+<<<<<<< HEAD
                 .addContainerGap(221, Short.MAX_VALUE))
+=======
+                .addGap(65, 65, 65)
+                .addComponent(jTextRes, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(50, Short.MAX_VALUE))
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(81, 81, 81)
+<<<<<<< HEAD
                 .addComponent(jButtonPf)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jButtonYc)
                 .addGap(18, 18, 18)
                 .addComponent(jButtonPl)
+=======
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jTextRes)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jButtonPf)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jButtonYc)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonPl)))
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
                 .addContainerGap(83, Short.MAX_VALUE))
         );
 
@@ -113,7 +134,11 @@ public class JFrameMenuAcompañante2 extends javax.swing.JFrame {
         pl=true;
         yc=true;
         this.c=a.getPapasFritas();
+<<<<<<< HEAD
          this.dispose();
+=======
+        jTextRes.setText(a.getPapasFritas());
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
     }//GEN-LAST:event_jButtonPfActionPerformed
 
     private void jButtonYcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonYcActionPerformed
@@ -121,7 +146,11 @@ public class JFrameMenuAcompañante2 extends javax.swing.JFrame {
         pl=false;
         yc=true;
         this.c=a.getPlatano();
+<<<<<<< HEAD
          this.dispose();
+=======
+        jTextRes.setText(a.getPlatano());
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
     }//GEN-LAST:event_jButtonYcActionPerformed
 
     private void jButtonPlActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonPlActionPerformed
@@ -129,7 +158,11 @@ public class JFrameMenuAcompañante2 extends javax.swing.JFrame {
         pl=true;
         yc=false;
         this.c=a.getYuca();
+<<<<<<< HEAD
          this.dispose();
+=======
+        jTextRes.setText(a.getYuca());
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
     }//GEN-LAST:event_jButtonPlActionPerformed
 
     /**
@@ -171,5 +204,9 @@ public class JFrameMenuAcompañante2 extends javax.swing.JFrame {
     javax.swing.JButton jButtonPf;
     javax.swing.JButton jButtonPl;
     javax.swing.JButton jButtonYc;
+<<<<<<< HEAD
+=======
+    javax.swing.JTextField jTextRes;
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
     // End of variables declaration//GEN-END:variables
 }

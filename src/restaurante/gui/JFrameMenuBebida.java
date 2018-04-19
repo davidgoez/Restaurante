@@ -55,6 +55,10 @@ public class JFrameMenuBebida extends javax.swing.JFrame {
         jButtonMr = new javax.swing.JButton();
         jButtonMn = new javax.swing.JButton();
         jButtonLl = new javax.swing.JButton();
+<<<<<<< HEAD
+=======
+        jTextRes = new javax.swing.JTextField();
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -89,17 +93,34 @@ public class JFrameMenuBebida extends javax.swing.JFrame {
                     .addComponent(jButtonMn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jButtonMr, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jButtonLl, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+<<<<<<< HEAD
                 .addContainerGap(265, Short.MAX_VALUE))
+=======
+                .addGap(61, 61, 61)
+                .addComponent(jTextRes, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(102, Short.MAX_VALUE))
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(83, 83, 83)
+<<<<<<< HEAD
                 .addComponent(jButtonMr)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jButtonMn)
                 .addGap(18, 18, 18)
                 .addComponent(jButtonLl)
+=======
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jButtonMr)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jButtonMn)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonLl))
+                    .addComponent(jTextRes))
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
                 .addContainerGap(119, Short.MAX_VALUE))
         );
 
@@ -111,7 +132,11 @@ public class JFrameMenuBebida extends javax.swing.JFrame {
         man=true;
         ll=true;
         this.j=bb.getMora();
+<<<<<<< HEAD
          this.dispose();
+=======
+        jTextRes.setText(bb.getMora());
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
     }//GEN-LAST:event_jButtonMrActionPerformed
 
     private void jButtonMnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonMnActionPerformed
@@ -119,7 +144,11 @@ public class JFrameMenuBebida extends javax.swing.JFrame {
         man=false;
         ll=true;
         this.j=bb.getMango();
+<<<<<<< HEAD
          this.dispose();
+=======
+        jTextRes.setText(bb.getMango());
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
     }//GEN-LAST:event_jButtonMnActionPerformed
 
     private void jButtonLlActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonLlActionPerformed
@@ -127,7 +156,11 @@ public class JFrameMenuBebida extends javax.swing.JFrame {
         man=true;
         ll=false;
         this.j=bb.getLulo();
+<<<<<<< HEAD
          this.dispose();
+=======
+        jTextRes.setText(bb.getLulo());
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
     }//GEN-LAST:event_jButtonLlActionPerformed
 
     /**
@@ -169,5 +202,9 @@ public class JFrameMenuBebida extends javax.swing.JFrame {
     javax.swing.JButton jButtonLl;
     javax.swing.JButton jButtonMn;
     javax.swing.JButton jButtonMr;
+<<<<<<< HEAD
+=======
+    javax.swing.JTextField jTextRes;
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
     // End of variables declaration//GEN-END:variables
 }

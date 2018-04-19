@@ -30,7 +30,13 @@
                   <Component id="jButtonZn" alignment="0" min="-2" pref="149" max="-2" attributes="0"/>
                   <Component id="jButtonHb" alignment="0" min="-2" pref="149" max="-2" attributes="0"/>
               </Group>
+<<<<<<< HEAD
               <EmptySpace pref="188" max="32767" attributes="0"/>
+=======
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Component id="jTextRes" min="-2" pref="129" max="-2" attributes="0"/>
+              <EmptySpace pref="19" max="32767" attributes="0"/>
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
           </Group>
       </Group>
     </DimensionLayout>
@@ -38,11 +44,27 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+<<<<<<< HEAD
               <Component id="jButtonRp" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jButtonHb" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jButtonZn" min="-2" max="-2" attributes="0"/>
+=======
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jButtonRp" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButtonHb" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButtonZn" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                      <Component id="jTextRes" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
               <EmptySpace pref="146" max="32767" attributes="0"/>
           </Group>
       </Group>
@@ -73,5 +95,10 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonZnActionPerformed"/>
       </Events>
     </Component>
+<<<<<<< HEAD
+=======
+    <Component class="javax.swing.JTextField" name="jTextRes">
+    </Component>
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
   </SubComponents>
 </Form>

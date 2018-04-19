@@ -42,7 +42,10 @@ public class JFrameMenu extends javax.swing.JFrame {
     JFrameMenuAcompañante2 carbohidrato= new JFrameMenuAcompañante2();
     JFrameMenuBebida jugo= new JFrameMenuBebida();
     JFrameMenuBebida2 gaseosa= new JFrameMenuBebida2();
+<<<<<<< HEAD
     
+=======
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
    
     
     public JFrameMenu() {
@@ -53,7 +56,10 @@ public class JFrameMenu extends javax.swing.JFrame {
         otro=true;
         jg=true;
         gs=true;
+<<<<<<< HEAD
         jTextPlato.setEnabled(false);
+=======
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
         
         
     }
@@ -370,7 +376,11 @@ public class JFrameMenu extends javax.swing.JFrame {
     private void jButtonBJActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonBJActionPerformed
        
        arroz.setVisible(false);
+<<<<<<< HEAD
       carne.setVisible(false);
+=======
+      carne.setVisible(true);
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
       ensalada.setVisible(false);
       carbohidrato.setVisible(false);
       jugo.setVisible(true);
@@ -384,7 +394,11 @@ public class JFrameMenu extends javax.swing.JFrame {
 
     private void jButtonBGActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonBGActionPerformed
        arroz.setVisible(false);
+<<<<<<< HEAD
       carne.setVisible(false);
+=======
+      carne.setVisible(true);
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
       ensalada.setVisible(false);
       carbohidrato.setVisible(false);
       jugo.setVisible(false);

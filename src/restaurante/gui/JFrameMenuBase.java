@@ -59,6 +59,10 @@ public class JFrameMenuBase extends javax.swing.JFrame {
         jButtonAP = new javax.swing.JButton();
         jButtonAT = new javax.swing.JButton();
         jButtonAC = new javax.swing.JButton();
+<<<<<<< HEAD
+=======
+        jTextRes = new javax.swing.JTextField();
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -83,6 +87,15 @@ public class JFrameMenuBase extends javax.swing.JFrame {
             }
         });
 
+<<<<<<< HEAD
+=======
+        jTextRes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextResActionPerformed(evt);
+            }
+        });
+
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -93,35 +106,69 @@ public class JFrameMenuBase extends javax.swing.JFrame {
                     .addComponent(jButtonAC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jButtonAT, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jButtonAP, javax.swing.GroupLayout.DEFAULT_SIZE, 225, Short.MAX_VALUE))
+<<<<<<< HEAD
                 .addContainerGap(148, Short.MAX_VALUE))
+=======
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 51, Short.MAX_VALUE)
+                .addComponent(jTextRes, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(23, 23, 23)
+<<<<<<< HEAD
                 .addComponent(jButtonAP)
                 .addGap(4, 4, 4)
                 .addComponent(jButtonAT)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButtonAC)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+=======
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(1, 1, 1)
+                        .addComponent(jTextRes))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jButtonAP)
+                        .addGap(4, 4, 4)
+                        .addComponent(jButtonAT)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButtonAC)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(68, Short.MAX_VALUE)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
+=======
+            .addGroup(layout.createSequentialGroup()
+                .addGap(32, 32, 32)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(46, Short.MAX_VALUE))
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+<<<<<<< HEAD
                 .addGap(27, 27, 27)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(33, Short.MAX_VALUE))
+=======
+                .addGap(25, 25, 25)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(35, Short.MAX_VALUE))
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
         );
 
         pack();
@@ -133,7 +180,11 @@ public class JFrameMenuBase extends javax.swing.JFrame {
         at=true;
         ac=true;
         this.a=b.getConPollo();
+<<<<<<< HEAD
         this.dispose();
+=======
+        jTextRes.setText(b.getConPollo());
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
         
     }//GEN-LAST:event_jButtonAPActionPerformed
 
@@ -142,7 +193,11 @@ public class JFrameMenuBase extends javax.swing.JFrame {
         ap=true;
         ac=true;
         this.a=b.getAtollado();
+<<<<<<< HEAD
          this.dispose();
+=======
+        jTextRes.setText(b.getAtollado());
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
         
     }//GEN-LAST:event_jButtonATActionPerformed
 
@@ -151,10 +206,21 @@ public class JFrameMenuBase extends javax.swing.JFrame {
         at=true;
         ap=true;
         this.a=b.getChino();
+<<<<<<< HEAD
          this.dispose();
        
     }//GEN-LAST:event_jButtonACActionPerformed
 
+=======
+        jTextRes.setText(b.getChino());
+       
+    }//GEN-LAST:event_jButtonACActionPerformed
+
+    private void jTextResActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextResActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextResActionPerformed
+
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
     /**
      * @param args the command line arguments
      */
@@ -195,5 +261,9 @@ public class JFrameMenuBase extends javax.swing.JFrame {
     javax.swing.JButton jButtonAP;
     javax.swing.JButton jButtonAT;
     javax.swing.JPanel jPanel1;
+<<<<<<< HEAD
+=======
+    javax.swing.JTextField jTextRes;
+>>>>>>> 71340cbac9663791270459dcd5de4737d75f82e7
     // End of variables declaration//GEN-END:variables
 }
